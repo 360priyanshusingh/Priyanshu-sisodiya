@@ -3,6 +3,7 @@
     color: white;
     margin-top: 20px;
      font-size: 30px;
+     margin: 10px;
 
 }
 
@@ -151,7 +152,6 @@ section{
     transition: all 0.5s ease-in-out;
     position: absolute;
     font-size: 2rem;
-
     top: 0;
     left: 0;
     height: 100%;
@@ -348,12 +348,14 @@ button:focus {
     border: 3px dashed #0096fa6b;
     top: 11.5%;
     left: 50%;
-    bottom: -11px;%;
+    bottom: -11px;
 
 }
 .time-line-traveller{
     position: sticky;
-    top: 5%;
+
+    top:  5%;
+    font-size: 35px;
     right: 10%;
     color: blue;
     transform: rotate(90deg);
