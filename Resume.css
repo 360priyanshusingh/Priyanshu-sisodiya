@@ -353,7 +353,6 @@ button:focus {
 }
 .time-line-traveller{
     position: sticky;
-
     top:  5%;
     font-size: 35px;
     right: 10%;
@@ -362,7 +361,35 @@ button:focus {
     z-index: 5;
 
 }
+@media screen and (max-width:600px){
+    .time-line-divider{
+        left: 4%;
+    }
+    .time-lime{
+        width: 100%;
 
+    }
+    .time-lime-box{
+        left:12% !important;
+        width: 80%;
+    }
+    .time-lime-box::after{
+        left:-12% !important;
+      
+    }
+    .experience-designation1::before{
+             margin-left: -2%;
+             height: 10px;
+             width: 10px;
+          
+    }
+    .experience-designation::before{
+        margin-left: -2%;
+        height: 10px;
+        width: 10px;
+     
+}
+}
 .experience-designation {
     /* margin-left: 50%; */
     font-size: 2rem;
@@ -423,6 +450,8 @@ button:focus {
     background-position: center;
    
 }
+
+
 /* Education */
 
 
@@ -471,7 +500,7 @@ section:nth-child(2n-1){
     color: white;
     text-align: center;
     margin-top: 4cm;
-    margin-bottom: 15px ;
+    margin-bottom: 20px;
 
  }
  
@@ -525,5 +554,19 @@ section:nth-child(2n-1){
 .haver:hover li a{
     transition: all ease-in-out;
     color: black;
+}
+@media screen and (max-width:600px) {
+    header{
+    height: 50vh;
+    }
+    .social-media p{
+        font-size: 40px;
+        margin-top: 1cm;
+        margin-bottom: 0.5rem;
+    }
+    .social-media li{
+        margin: 5px 5px 5px 5px;
+        display: inline;
+    }
 }
  /* #about */ 
