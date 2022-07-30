@@ -1,7 +1,7 @@
-/* body{
+body{
     margin: 0px;
     font-family: sans-serif;
-} */
+}
 .mycolor{
     color: white;
     margin-top: 20px;
@@ -369,7 +369,7 @@ button:focus {
         left: 4%;
     }
     .time-lime{
-        width: 100%;
+        width: 90%;
 
     }
     .time-lime-box{
