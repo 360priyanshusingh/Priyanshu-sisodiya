@@ -371,24 +371,41 @@ button:focus {
     }
     .time-lime-box{
         left:12% !important;
-        width: 80%;
+        width: 85%;
     }
     .time-lime-box::after{
         left:-12% !important;
       
     }
+    .experience-designation {
+        margin-left: 50%;
+       
+    }
+    .experience-designation1 {
+        margin-left: 50%;
+       
+    }
+
+    
     .experience-designation1::before{
-             margin-left: -2%;
-             height: 10px;
-             width: 10px;
+            margin-left: -105%;
+             height: 1px;
+             width: 1px;
+             font-size: 1px;
+
           
     }
     .experience-designation::before{
-        margin-left: -2%;
-        height: 10px;
-        width: 10px;
-     
-}
+        margin-left: -105%;
+             height: 1px;
+             width: 1px;
+             font-size: 1px;}
+
+             #my-details-container{
+          margin-left: 40px;
+    
+       }
+ 
 }
 .experience-designation {
     /* margin-left: 50%; */
@@ -451,6 +468,13 @@ button:focus {
    
 }
 
+@media screen and(max-width:600px){ 
+    .experience-description{
+        margin-left: 10px;
+        font-size: 10px;
+
+    }
+}
 
 /* Education */
 
@@ -558,15 +582,29 @@ section:nth-child(2n-1){
 @media screen and (max-width:600px) {
     header{
     height: 50vh;
+    width: 100%;
     }
     .social-media p{
-        font-size: 40px;
-        margin-top: 1cm;
+        font-size: 35px;
+        margin-top: 2cm;
         margin-bottom: 0.5rem;
     }
     .social-media li{
-        margin: 5px 5px 5px 5px;
+        margin: 0px 0px 0px 0px;
         display: inline;
+    }
+    #my-image {
+        height: 10rem;
+        width: 10rem;
+        margin: auto;
+        margin-top: -15vh;
+        border-radius: 50%;
+    }
+    section{
+        width: 100%;
+    }
+    .contact{
+        font-size:5px ;
     }
 }
  /* #about */ 
